@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?l5hg5x');
+  src:  url('../fonts/icomoon.eot?l5hg5x#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?l5hg5x') format('truetype'),
+    url('../fonts/icomoon.woff?l5hg5x') format('woff'),
+    url('../fonts/icomoon.svg?l5hg5x#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-video-camera:before {   /* 视频*/
+  content: "\e914";
+}
+.icon-copy:before {    /* 新闻*/
+  content: "\e92c";
+}
+.icon-spinner10:before {  /* 我的*/
+  content: "\e983";
+}
+.icon-search:before {   /* 搜索*/
+  content: "\e986";
+}
+.icon-eye:before {   /*可见*/
+  content: "\e9ce";
+}
+.icon-eye-blocked:before {  /* 不可见*/
+  content: "\e9d1";
+}
+.icon-cross:before {   /*返回2*/
+  content: "\ea0f";
+}
+.icon-backward:before {   /* 返回*/
+  content: "\ea1a";
+}
+.icon-insert-template:before { /* 模版*/
+  content: "\ea72";
+}

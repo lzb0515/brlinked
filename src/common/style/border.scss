@@ -1,0 +1,31 @@
+
+.border_1px{
+	display: block;
+	width:100%;
+  border-top:1px solid rgba(7,17,27,.1);
+}
+
+@media (min-device-pixel-ratio:1.5),(-webkit-min-device-pixel-ratio:1.5) {
+	.border_1px{
+		&:before{
+			transform: scale(0.7);
+			-webkit-transform: scale(0.7);
+		}
+	}
+}
+@media (min-device-pixel-ratio:2),(-webkit-min-device-pixel-ratio:2) {
+	.border_1px{
+		&:before{
+			transform: scale(0.5);
+			-webkit-transform: scale(0.5);
+		}
+	}
+}
+@media (min-device-pixel-ratio:3),(-webkit-min-device-pixel-ratio:3) {
+	.border_1px{
+		&:before{
+			transform: scale(0.3);
+			-webkit-transform: scale(0.3);
+		}
+	}
+}
