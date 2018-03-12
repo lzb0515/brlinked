@@ -3,19 +3,19 @@
         <div class="border_1px"></div>
         <div class="option">
             <router-link to="/news" class="items">
-                <span class="icon icon-copy"></span>
+                <span class="iconfont icon-news"></span>
                 <span class="text">新闻</span>
             </router-link>
-            <router-link to="/select" class="items">
-                <span class="icon icon-insert-template"></span>
+            <router-link to="/projects" class="items">
+                <span class="iconfont icon-project"></span>
+                <span class="text">项目</span>
+            </router-link>
+            <router-link to="/professor" class="items">
+                <span class="iconfont icon-professor"></span>
                 <span class="text">专家</span>
             </router-link>
-            <router-link to="/search" class="items">
-                <span class="icon icon-video-camera"></span>
-                <span class="text">搜索</span>
-            </router-link>
             <router-link :to="url" class="items" v-tap="{methods:user}" ref="link">
-                <span class="icon icon-spinner10"></span>
+                <span class="iconfont icon-user"></span>
                 <span class="text">我的</span>
             </router-link>
         </div>
@@ -65,12 +65,8 @@
                 color: #131517;
                 font-size:0.8rem;
                 vertical-align: bottom;
-                .icon{
-                    margin: 0.1rem;
-                }
                 .text{
                     font-size:0.9rem;
-                    padding-left: 0.1rem;
                 }
             }
         }

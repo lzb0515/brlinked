@@ -1,12 +1,5 @@
 <template>
   <div class="search">
-	  <div class="searchBox">
-		  <span class="icon-search icon" v-tap="{methods:resultPage}"></span>
-		  <div class="searchInput">
-		  	<input type="text" placeholder="搜索感兴趣的内容" class="input" v-model="value" ref="input" @input="search"/>
-		  	<span class="clear" v-show="value.length" v-tap="{methods:clear}">x</span>
-		  </div>
-	  </div>
 	  <div class="wrapper" ref="wrapper">
 		  <div class="result">
 			<h3 class="hotNews">今日热点</h3>
@@ -93,46 +86,6 @@
 		box-sizing:border-box;
 		display: flex;
 		flex-direction: column;
-		.searchBox{
-			padding:0.5rem 0;
-			display: flex;
-			height: 2.0rem;
-			overflow: hidden;
-			box-sizing: border-box;
-			.icon{
-				flex: 0 1.5rem;
-				font-size:0.9rem;
-				line-height:1.0rem;			
-			}
-			.searchInput{
-				flex: 1;
-				padding-right:2.5rem;
-				position:relative;
-				.input{
-					width:100%;
-					display: block;
-					height: 100%;
-					color: red;
-					font-size: 0.8rem;
-					-webkit-text-fill-color: transparent;
-					text-shadow:0 0 0 rgba(0,0,0,.6);
-					border:none;
-					outline: none;
-				}
-				.clear{
-					position:absolute;
-					width: 0.8rem;
-					height: 0.8rem;
-					border-radius:50%;
-					background: silver;
-					right: 1.20rem;
-					top: 0.15rem;
-					text-align: center;
-					line-height: 0.70rem;
-					font-size: 0.7rem;
-				}
-			}
-		}
 		.wrapper{
 			overflow: hidden;
 			.result{

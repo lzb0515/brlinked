@@ -1,823 +1,635 @@
 {
+  "projects": [
+    {
+      "name": "中国工业经济联合会",
+      "intro": "关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会",
+      "img": "http://img4.99114.com/group1/M00/BD/A7/wKgGMFVmu-yAeYHHAACU2qXJhxA417.png"
+    },
+    {
+      "name": "华夏幸福",
+      "intro": "关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会",
+      "img": "http://pic2.ooopic.com/13/50/19/06b1OOOPIC37.jpg"
+    },
+    {
+      "name": "北京国安",
+      "intro": "关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会",
+      "img": "http://img1.imgtn.bdimg.com/it/u=2713246171,3391846901&fm=214&gp=0.jpg"
+    },
+    {
+      "name": "天津权健",
+      "intro": "关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会",
+      "img": "http://img3.99114.com/2014/1/3/11/38576188.jpg"
+    },
+    {
+      "name": "广州恒大",
+      "intro": "关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会",
+      "img": "http://img3.99114.com/group1/M00/D0/1B/wKgGMFVEcKSAP6ZcAABldsb9f7k866.jpg"
+    },
+    {
+      "name": "大连万达",
+      "intro": "关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会",
+      "img": "http://www.horsehr.com/ImageUpload/companylogo/1380527700432.jpg"
+    },
+    {
+      "name": "上海申花",
+      "intro": "关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会关于中国工业经济联合会",
+      "img": "http://my.horsehr.com/ImageUpload/companylogo/4/3/4/4/8/1402047361268.jpg"
+    }
+  ],
+  "professors": [
+    {
+      "name": "王华",
+      "intro": "关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍",
+      "img": "http://img3.imgtn.bdimg.com/it/u=3817555109,2484709904&fm=27&gp=0.jpg"
+    },
+    {
+      "name": "王华",
+      "intro": "关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍",
+      "img": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1520888553647&di=53d3d6ff2e5f8d941251230e6e367453&imgtype=0&src=http%3A%2F%2Fwww.whb.cn%2Fu%2Fcms%2Fwww%2F201410%2F081349371wby.jpg"
+    },
+    {
+      "name": "王华",
+      "intro": "关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍",
+      "img":"https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=956745431,281866632&fm=27&gp=0.jpg"
+    },
+    {
+      "name": "王华",
+      "intro": "关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍",
+      "img":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1520888553793&di=527e5212b996814dbabc1566a9335373&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fforum%2Fw%253D580%2Fsign%3D3fef455d77094b36db921be593cd7c00%2F1bb0ac773912b31bbe1376ab8718367adbb4e1f6.jpg"
+    },
+    {
+      "name": "王华",
+      "intro": "关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍",
+      "img": "http://img3.imgtn.bdimg.com/it/u=3817555109,2484709904&fm=27&gp=0.jpg"
+    },
+    {
+      "name": "王华",
+      "intro": "关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍",
+      "img": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1520888553647&di=53d3d6ff2e5f8d941251230e6e367453&imgtype=0&src=http%3A%2F%2Fwww.whb.cn%2Fu%2Fcms%2Fwww%2F201410%2F081349371wby.jpg"
+    },
+    {
+      "name": "王华",
+      "intro": "关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍",
+      "img":"https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=956745431,281866632&fm=27&gp=0.jpg"
+    },
+    {
+      "name": "王华",
+      "intro": "关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍",
+      "img":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1520888553793&di=527e5212b996814dbabc1566a9335373&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fforum%2Fw%253D580%2Fsign%3D3fef455d77094b36db921be593cd7c00%2F1bb0ac773912b31bbe1376ab8718367adbb4e1f6.jpg"
+    },
+    {
+      "name": "王华",
+      "intro": "关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍",
+      "img": "http://img3.imgtn.bdimg.com/it/u=3817555109,2484709904&fm=27&gp=0.jpg"
+    },
+    {
+      "name": "王华",
+      "intro": "关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍",
+      "img": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1520888553647&di=53d3d6ff2e5f8d941251230e6e367453&imgtype=0&src=http%3A%2F%2Fwww.whb.cn%2Fu%2Fcms%2Fwww%2F201410%2F081349371wby.jpg"
+    },
+    {
+      "name": "王华",
+      "intro": "关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍",
+      "img":"https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=956745431,281866632&fm=27&gp=0.jpg"
+    },
+    {
+      "name": "王华",
+      "intro": "关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍关于此人的介绍",
+      "img":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1520888553793&di=527e5212b996814dbabc1566a9335373&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fforum%2Fw%253D580%2Fsign%3D3fef455d77094b36db921be593cd7c00%2F1bb0ac773912b31bbe1376ab8718367adbb4e1f6.jpg"
+    }
+  ],
+  "rollImg":[
+    {
+      "img":"/image/img1.jpg",
+      "info":"全球军力排名出炉,倒数第一是中国的邻居"
+    },
+    {
+      "img":"/image/img19.jpg",
+      "info":"楼市现:\"首付10%、开发商垫资\"卖房"
+    },
+    {
+      "img":"/image/img3.jpg",
+      "info":"绝了!iPhone8要用手势取代Home键"
+    }
+  ],
   "focusNews": {
-    "rollImg":[
-      {
-        "img":"/static/image/img1.jpg",
-        "info":"全球军力排名出炉,倒数第一是中国的邻居"
-      },
-      {
-        "img":"/static/image/img19.jpg",
-        "info":"楼市现:\"首付10%、开发商垫资\"卖房"
-      },
-      {
-        "img":"/static/image/img3.jpg",
-        "info":"绝了!iPhone8要用手势取代Home键"
-      }
-    ],
     "news":[
       {
         "title":"国防部否认中国向印方提供贴息贷款:纯属捏造",
-        "image":"/static/image/img4.jpg",
+        "image":"/image/img4.jpg",
         "rateCount":222,
         "time":"1504670455551"
       },
       {
         "title":"山东百只羊吃葱被毒死 官方称涉案封存大葱已无害化处理",
-        "image":"/static/image/img5.jpg",
+        "image":"/image/img5.jpg",
         "rateCount":113,
         "time":"1504691420435"
       },
       {
         "title":"百度外卖员工安置公布:期权作废,核心员工有奖励",
-        "image":"/static/image/img2.jpg",
+        "image":"/image/img2.jpg",
         "rateCount":201,
         "time":"1504631800355"
       },
       {
         "title":"国内知名平台ICOINFO暂停ICO业务",
-        "image":"/static/image/img7.jpg",
+        "image":"/image/img7.jpg",
         "rateCount":32,
         "time":"1504655820455"
       },
       {
         "title":"制作人怒揭MBC黑幕<<无挑>>或将停播",
-        "image":"/static/image/img8.jpg",
+        "image":"/image/img8.jpg",
         "rateCount":11,
         "time":"1504604719455"
       },
       {
         "title":"许多房子空置无人居住,现笑着买房,未来恐怕要哭着卖房了",
-        "image":"/static/image/img9.jpg",
+        "image":"/image/img9.jpg",
         "rateCount":212,
         "time":"1504689820455"
       },
       {
         "title":"墨西哥洞穴内发现人类遗骸 距今万年",
-        "image":"/static/image/img10.jpg",
+        "image":"/image/img10.jpg",
         "rateCount":125,
         "time":"1504667812455"
       },
       {
         "title":"韩国现代汽车在华停产 顾家下跌2%",
-        "image":"/static/image/img11.jpg",
+        "image":"/image/img11.jpg",
         "rateCount":1248,
         "time":"1504666815405"
       },
       {
         "title":"三星电子70亿美元再投西安高新区",
-        "image":"/static/image/img12.jpg",
+        "image":"/image/img12.jpg",
         "rateCount":167,
         "time":"1504669980945"
       },
       {
         "title":"北京公交看不下去了!开发APP:iPone终于能刷公交卡",
-        "image":"/static/image/img13.jpg",
+        "image":"/image/img13.jpg",
         "rateCount":65,
         "time":"1504602290055"
       },
       {
         "title":"京东阿里顺丰暗搞大动作 无人送货时代即将来临",
-        "image":"/static/image/img14.jpg",
+        "image":"/image/img14.jpg",
         "rateCount":53,
         "time":"1504699912345"
       },
       {
         "title":"二线城市送房、送钱、送户口,你会逃离北上广吗?",
-        "image":"/static/image/img15.jpg",
+        "image":"/image/img15.jpg",
         "rateCount":7,
         "time":"1504692018005"
       },
       {
         "title":"新生代韩国女团里的'门面担当',你最喜欢谁?",
-        "image":"/static/image/img16.jpg",
+        "image":"/image/img16.jpg",
         "rateCount":77,
         "time":"1504606010455"
       },
       {
         "title":"女大学生被骗近两万元 不停给骗子打电话竟要回了大部分",
-        "image":"/static/image/img17.jpg",
+        "image":"/image/img17.jpg",
         "rateCount":85,
         "time":"1504653270455"
       },
       {
         "title":"助威国足!中国足协高层新老成员集体现身武汉",
-        "image":"/static/image/img18.jpg",
+        "image":"/image/img18.jpg",
         "rateCount":79,
         "time":"1504643200001"
       },
       {
         "title":"韩国造船竞标败给中国 引发其制造业衰退恐慌",
-        "image":"/static/image/img20.jpg",
+        "image":"/image/img20.jpg",
         "rateCount":56,
         "time":"1504645610222"
       }
     ]
   },
-  "focusChina": {
-    "rollImg":[
-      {
-        "img":"/static/image/img3.jpg",
-        "info":"绝了!iPhone8要用手势取代Home键"
-      },
-      {
-        "img":"/static/image/img1.jpg",
-        "info":"全球军力排名出炉,倒数第一是中国的邻居"
-      },
-      {
-        "img":"/static/image/img19.jpg",
-        "info":"楼市现:\"首付10%、开发商垫资\"卖房"
-      }
-    ],
+  "focusChina":{
     "news":[
       {
         "title":"山东百只羊吃葱被毒死 官方称涉案封存大葱已无害化处理",
-        "image":"/static/image/img5.jpg",
+        "image":"/image/img5.jpg",
         "rateCount":113,
         "time":"1504691420435"
       },
       {
         "title":"百度外卖员工安置公布:期权作废,核心员工有奖励",
-        "image":"/static/image/img2.jpg",
+        "image":"/image/img2.jpg",
         "rateCount":201,
         "time":"1504631800355"
       },
       {
         "title":"国内知名平台ICOINFO暂停ICO业务",
-        "image":"/static/image/img7.jpg",
+        "image":"/image/img7.jpg",
         "rateCount":32,
         "time":"1504655820455"
       },
       {
         "title":"制作人怒揭MBC黑幕<<无挑>>或将停播",
-        "image":"/static/image/img8.jpg",
+        "image":"/image/img8.jpg",
         "rateCount":11,
         "time":"1504604719455"
       },
       {
         "title":"许多房子空置无人居住,现笑着买房,未来恐怕要哭着卖房了",
-        "image":"/static/image/img9.jpg",
+        "image":"/image/img9.jpg",
         "rateCount":212,
         "time":"1504689820455"
       },
       {
         "title":"墨西哥洞穴内发现人类遗骸 距今万年",
-        "image":"/static/image/img10.jpg",
+        "image":"/image/img10.jpg",
         "rateCount":125,
         "time":"1504667812455"
       },
       {
         "title":"韩国现代汽车在华停产 顾家下跌2%",
-        "image":"/static/image/img11.jpg",
+        "image":"/image/img11.jpg",
         "rateCount":1248,
         "time":"1504666815405"
       },
       {
         "title":"三星电子70亿美元再投西安高新区",
-        "image":"/static/image/img12.jpg",
+        "image":"/image/img12.jpg",
         "rateCount":167,
         "time":"1504669980945"
       },
       {
         "title":"北京公交看不下去了!开发APP:iPone终于能刷公交卡",
-        "image":"/static/image/img13.jpg",
+        "image":"/image/img13.jpg",
         "rateCount":65,
         "time":"1504602290055"
-      },
-      {
-        "title":"京东阿里顺丰暗搞大动作 无人送货时代即将来临",
-        "image":"/static/image/img14.jpg",
-        "rateCount":53,
-        "time":"1504699912345"
-      },
-      {
-        "title":"二线城市送房、送钱、送户口,你会逃离北上广吗?",
-        "image":"/static/image/img15.jpg",
-        "rateCount":7,
-        "time":"1504692018005"
-      },
-      {
-        "title":"新生代韩国女团里的'门面担当',你最喜欢谁?",
-        "image":"/static/image/img16.jpg",
-        "rateCount":77,
-        "time":"1504606010455"
-      },
-      {
-        "title":"女大学生被骗近两万元 不停给骗子打电话竟要回了大部分",
-        "image":"/static/image/img17.jpg",
-        "rateCount":85,
-        "time":"1504653270455"
-      },
-      {
-        "title":"助威国足!中国足协高层新老成员集体现身武汉",
-        "image":"/static/image/img18.jpg",
-        "rateCount":79,
-        "time":"1504643200001"
-      },
-      {
-        "title":"韩国造船竞标败给中国 引发其制造业衰退恐慌",
-        "image":"/static/image/img20.jpg",
-        "rateCount":56,
-        "time":"1504645610222"
       }
     ]
   },
   "focusRussia": {
-    "rollImg":[
-      {
-        "img":"/static/image/img19.jpg",
-        "info":"楼市现:\"首付10%、开发商垫资\"卖房"
-      },
-      {
-        "img":"/static/image/img3.jpg",
-        "info":"绝了!iPhone8要用手势取代Home键"
-      }
-    ],
     "news":[
       {
-        "title":"百度外卖员工安置公布:期权作废,核心员工有奖励",
-        "image":"/static/image/img2.jpg",
-        "rateCount":201,
-        "time":"1504631800355"
-      },
-      {
-        "title":"国内知名平台ICOINFO暂停ICO业务",
-        "image":"/static/image/img7.jpg",
-        "rateCount":32,
-        "time":"1504655820455"
-      },
-      {
-        "title":"制作人怒揭MBC黑幕<<无挑>>或将停播",
-        "image":"/static/image/img8.jpg",
-        "rateCount":11,
-        "time":"1504604719455"
-      },
-      {
-        "title":"许多房子空置无人居住,现笑着买房,未来恐怕要哭着卖房了",
-        "image":"/static/image/img9.jpg",
-        "rateCount":212,
-        "time":"1504689820455"
-      },
-      {
-        "title":"墨西哥洞穴内发现人类遗骸 距今万年",
-        "image":"/static/image/img10.jpg",
-        "rateCount":125,
-        "time":"1504667812455"
-      },
-      {
-        "title":"韩国现代汽车在华停产 顾家下跌2%",
-        "image":"/static/image/img11.jpg",
-        "rateCount":1248,
-        "time":"1504666815405"
-      },
-      {
-        "title":"三星电子70亿美元再投西安高新区",
-        "image":"/static/image/img12.jpg",
-        "rateCount":167,
-        "time":"1504669980945"
-      },
-      {
         "title":"北京公交看不下去了!开发APP:iPone终于能刷公交卡",
-        "image":"/static/image/img13.jpg",
+        "image":"/image/img13.jpg",
         "rateCount":65,
         "time":"1504602290055"
       },
       {
         "title":"京东阿里顺丰暗搞大动作 无人送货时代即将来临",
-        "image":"/static/image/img14.jpg",
+        "image":"/image/img14.jpg",
         "rateCount":53,
         "time":"1504699912345"
       },
       {
         "title":"二线城市送房、送钱、送户口,你会逃离北上广吗?",
-        "image":"/static/image/img15.jpg",
+        "image":"/image/img15.jpg",
         "rateCount":7,
         "time":"1504692018005"
       },
       {
         "title":"新生代韩国女团里的'门面担当',你最喜欢谁?",
-        "image":"/static/image/img16.jpg",
+        "image":"/image/img16.jpg",
         "rateCount":77,
         "time":"1504606010455"
       },
       {
         "title":"女大学生被骗近两万元 不停给骗子打电话竟要回了大部分",
-        "image":"/static/image/img17.jpg",
+        "image":"/image/img17.jpg",
         "rateCount":85,
         "time":"1504653270455"
       },
       {
         "title":"助威国足!中国足协高层新老成员集体现身武汉",
-        "image":"/static/image/img18.jpg",
+        "image":"/image/img18.jpg",
         "rateCount":79,
         "time":"1504643200001"
       },
       {
         "title":"韩国造船竞标败给中国 引发其制造业衰退恐慌",
-        "image":"/static/image/img20.jpg",
+        "image":"/image/img20.jpg",
         "rateCount":56,
         "time":"1504645610222"
       }
     ]
   },
   "focusBrazil": {
-    "rollImg":[
-      {
-        "img":"/static/image/img3.jpg",
-        "info":"绝了!iPhone8要用手势取代Home键"
-      },
-      {
-        "img":"/static/image/img1.jpg",
-        "info":"全球军力排名出炉,倒数第一是中国的邻居"
-      },
-      {
-        "img":"/static/image/img19.jpg",
-        "info":"楼市现:\"首付10%、开发商垫资\"卖房"
-      }
-    ],
     "news":[
-      {
-        "title":"国内知名平台ICOINFO暂停ICO业务",
-        "image":"/static/image/img7.jpg",
-        "rateCount":32,
-        "time":"1504655820455"
-      },
-      {
-        "title":"制作人怒揭MBC黑幕<<无挑>>或将停播",
-        "image":"/static/image/img8.jpg",
-        "rateCount":11,
-        "time":"1504604719455"
-      },
-      {
-        "title":"许多房子空置无人居住,现笑着买房,未来恐怕要哭着卖房了",
-        "image":"/static/image/img9.jpg",
-        "rateCount":212,
-        "time":"1504689820455"
-      },
-      {
-        "title":"墨西哥洞穴内发现人类遗骸 距今万年",
-        "image":"/static/image/img10.jpg",
-        "rateCount":125,
-        "time":"1504667812455"
-      },
-      {
-        "title":"韩国现代汽车在华停产 顾家下跌2%",
-        "image":"/static/image/img11.jpg",
-        "rateCount":1248,
-        "time":"1504666815405"
-      },
+
       {
         "title":"三星电子70亿美元再投西安高新区",
-        "image":"/static/image/img12.jpg",
+        "image":"/image/img12.jpg",
         "rateCount":167,
         "time":"1504669980945"
       },
       {
         "title":"北京公交看不下去了!开发APP:iPone终于能刷公交卡",
-        "image":"/static/image/img13.jpg",
+        "image":"/image/img13.jpg",
         "rateCount":65,
         "time":"1504602290055"
       },
       {
         "title":"京东阿里顺丰暗搞大动作 无人送货时代即将来临",
-        "image":"/static/image/img14.jpg",
+        "image":"/image/img14.jpg",
         "rateCount":53,
         "time":"1504699912345"
       },
       {
         "title":"二线城市送房、送钱、送户口,你会逃离北上广吗?",
-        "image":"/static/image/img15.jpg",
+        "image":"/image/img15.jpg",
         "rateCount":7,
         "time":"1504692018005"
       },
       {
         "title":"新生代韩国女团里的'门面担当',你最喜欢谁?",
-        "image":"/static/image/img16.jpg",
+        "image":"/image/img16.jpg",
         "rateCount":77,
         "time":"1504606010455"
       },
       {
         "title":"女大学生被骗近两万元 不停给骗子打电话竟要回了大部分",
-        "image":"/static/image/img17.jpg",
+        "image":"/image/img17.jpg",
         "rateCount":85,
         "time":"1504653270455"
       },
       {
         "title":"助威国足!中国足协高层新老成员集体现身武汉",
-        "image":"/static/image/img18.jpg",
+        "image":"/image/img18.jpg",
         "rateCount":79,
         "time":"1504643200001"
       },
       {
         "title":"韩国造船竞标败给中国 引发其制造业衰退恐慌",
-        "image":"/static/image/img20.jpg",
+        "image":"/image/img20.jpg",
         "rateCount":56,
         "time":"1504645610222"
       }
     ]
   },
   "focusPakistan": {
-    "rollImg":[
-      {
-        "img":"/static/image/img1.jpg",
-        "info":"全球军力排名出炉,倒数第一是中国的邻居"
-      },
-      {
-        "img":"/static/image/img19.jpg",
-        "info":"楼市现:\"首付10%、开发商垫资\"卖房"
-      },
-      {
-        "img":"/static/image/img3.jpg",
-        "info":"绝了!iPhone8要用手势取代Home键"
-      }
-    ],
     "news":[
       {
-        "title":"许多房子空置无人居住,现笑着买房,未来恐怕要哭着卖房了",
-        "image":"/static/image/img9.jpg",
-        "rateCount":212,
-        "time":"1504689820455"
-      },
-      {
-        "title":"墨西哥洞穴内发现人类遗骸 距今万年",
-        "image":"/static/image/img10.jpg",
-        "rateCount":125,
-        "time":"1504667812455"
-      },
-      {
-        "title":"韩国现代汽车在华停产 顾家下跌2%",
-        "image":"/static/image/img11.jpg",
-        "rateCount":1248,
-        "time":"1504666815405"
-      },
-      {
         "title":"三星电子70亿美元再投西安高新区",
-        "image":"/static/image/img12.jpg",
+        "image":"/image/img12.jpg",
         "rateCount":167,
         "time":"1504669980945"
       },
       {
         "title":"北京公交看不下去了!开发APP:iPone终于能刷公交卡",
-        "image":"/static/image/img13.jpg",
+        "image":"/image/img13.jpg",
         "rateCount":65,
         "time":"1504602290055"
       },
       {
         "title":"京东阿里顺丰暗搞大动作 无人送货时代即将来临",
-        "image":"/static/image/img14.jpg",
+        "image":"/image/img14.jpg",
         "rateCount":53,
         "time":"1504699912345"
       },
       {
         "title":"二线城市送房、送钱、送户口,你会逃离北上广吗?",
-        "image":"/static/image/img15.jpg",
+        "image":"/image/img15.jpg",
         "rateCount":7,
         "time":"1504692018005"
       },
       {
         "title":"新生代韩国女团里的'门面担当',你最喜欢谁?",
-        "image":"/static/image/img16.jpg",
+        "image":"/image/img16.jpg",
         "rateCount":77,
         "time":"1504606010455"
       },
       {
         "title":"女大学生被骗近两万元 不停给骗子打电话竟要回了大部分",
-        "image":"/static/image/img17.jpg",
+        "image":"/image/img17.jpg",
         "rateCount":85,
         "time":"1504653270455"
       },
       {
         "title":"助威国足!中国足协高层新老成员集体现身武汉",
-        "image":"/static/image/img18.jpg",
+        "image":"/image/img18.jpg",
         "rateCount":79,
         "time":"1504643200001"
       },
       {
         "title":"韩国造船竞标败给中国 引发其制造业衰退恐慌",
-        "image":"/static/image/img20.jpg",
+        "image":"/image/img20.jpg",
         "rateCount":56,
         "time":"1504645610222"
       }
     ]
   },
   "focusHongKong": {
-    "rollImg":[
-      {
-        "img":"/static/image/img19.jpg",
-        "info":"楼市现:\"首付10%、开发商垫资\"卖房"
-      },
-      {
-        "img":"/static/image/img1.jpg",
-        "info":"全球军力排名出炉,倒数第一是中国的邻居"
-      },
-      {
-        "img":"/static/image/img3.jpg",
-        "info":"绝了!iPhone8要用手势取代Home键"
-      }
-    ],
     "news":[
       {
-        "title":"韩国现代汽车在华停产 顾家下跌2%",
-        "image":"/static/image/img11.jpg",
-        "rateCount":1248,
-        "time":"1504666815405"
-      },
-      {
-        "title":"三星电子70亿美元再投西安高新区",
-        "image":"/static/image/img12.jpg",
-        "rateCount":167,
-        "time":"1504669980945"
-      },
-      {
-        "title":"北京公交看不下去了!开发APP:iPone终于能刷公交卡",
-        "image":"/static/image/img13.jpg",
-        "rateCount":65,
-        "time":"1504602290055"
-      },
-      {
-        "title":"京东阿里顺丰暗搞大动作 无人送货时代即将来临",
-        "image":"/static/image/img14.jpg",
-        "rateCount":53,
-        "time":"1504699912345"
-      },
-      {
-        "title":"二线城市送房、送钱、送户口,你会逃离北上广吗?",
-        "image":"/static/image/img15.jpg",
-        "rateCount":7,
-        "time":"1504692018005"
-      },
-      {
-        "title":"新生代韩国女团里的'门面担当',你最喜欢谁?",
-        "image":"/static/image/img16.jpg",
-        "rateCount":77,
-        "time":"1504606010455"
-      },
-      {
         "title":"女大学生被骗近两万元 不停给骗子打电话竟要回了大部分",
-        "image":"/static/image/img17.jpg",
+        "image":"/image/img17.jpg",
         "rateCount":85,
         "time":"1504653270455"
       },
       {
         "title":"助威国足!中国足协高层新老成员集体现身武汉",
-        "image":"/static/image/img18.jpg",
+        "image":"/image/img18.jpg",
         "rateCount":79,
         "time":"1504643200001"
       },
       {
         "title":"韩国造船竞标败给中国 引发其制造业衰退恐慌",
-        "image":"/static/image/img20.jpg",
+        "image":"/image/img20.jpg",
         "rateCount":56,
         "time":"1504645610222"
       }
     ]
   },
   "focusIsrael": {
-    "rollImg":[
-      {
-        "img":"/static/image/img1.jpg",
-        "info":"全球军力排名出炉,倒数第一是中国的邻居"
-      },
-      {
-        "img":"/static/image/img19.jpg",
-        "info":"楼市现:\"首付10%、开发商垫资\"卖房"
-      },
-      {
-        "img":"/static/image/img3.jpg",
-        "info":"绝了!iPhone8要用手势取代Home键"
-      }
-    ],
     "news":[
       {
         "title":"墨西哥洞穴内发现人类遗骸 距今万年",
-        "image":"/static/image/img10.jpg",
+        "image":"/image/img10.jpg",
         "rateCount":125,
         "time":"1504667812455"
       },
       {
         "title":"韩国现代汽车在华停产 顾家下跌2%",
-        "image":"/static/image/img11.jpg",
+        "image":"/image/img11.jpg",
         "rateCount":1248,
         "time":"1504666815405"
       },
       {
         "title":"三星电子70亿美元再投西安高新区",
-        "image":"/static/image/img12.jpg",
+        "image":"/image/img12.jpg",
         "rateCount":167,
         "time":"1504669980945"
       },
       {
         "title":"北京公交看不下去了!开发APP:iPone终于能刷公交卡",
-        "image":"/static/image/img13.jpg",
+        "image":"/image/img13.jpg",
         "rateCount":65,
         "time":"1504602290055"
       },
       {
         "title":"京东阿里顺丰暗搞大动作 无人送货时代即将来临",
-        "image":"/static/image/img14.jpg",
+        "image":"/image/img14.jpg",
         "rateCount":53,
         "time":"1504699912345"
       },
       {
-        "title":"二线城市送房、送钱、送户口,你会逃离北上广吗?",
-        "image":"/static/image/img15.jpg",
-        "rateCount":7,
-        "time":"1504692018005"
-      },
-      {
-        "title":"新生代韩国女团里的'门面担当',你最喜欢谁?",
-        "image":"/static/image/img16.jpg",
-        "rateCount":77,
-        "time":"1504606010455"
-      },
-      {
-        "title":"女大学生被骗近两万元 不停给骗子打电话竟要回了大部分",
-        "image":"/static/image/img17.jpg",
-        "rateCount":85,
-        "time":"1504653270455"
-      },
-      {
         "title":"助威国足!中国足协高层新老成员集体现身武汉",
-        "image":"/static/image/img18.jpg",
+        "image":"/image/img18.jpg",
         "rateCount":79,
         "time":"1504643200001"
       },
       {
         "title":"韩国造船竞标败给中国 引发其制造业衰退恐慌",
-        "image":"/static/image/img20.jpg",
+        "image":"/image/img20.jpg",
         "rateCount":56,
         "time":"1504645610222"
       }
     ]
   },
   "focusGermany": {
-    "rollImg":[
-      {
-        "img":"/static/image/img3.jpg",
-        "info":"绝了!iPhone8要用手势取代Home键"
-      },
-      {
-        "img":"/static/image/img1.jpg",
-        "info":"全球军力排名出炉,倒数第一是中国的邻居"
-      },
-      {
-        "img":"/static/image/img19.jpg",
-        "info":"楼市现:\"首付10%、开发商垫资\"卖房"
-      }
-    ],
     "news":[
       {
         "title":"国防部否认中国向印方提供贴息贷款:纯属捏造",
-        "image":"/static/image/img4.jpg",
+        "image":"/image/img4.jpg",
         "rateCount":222,
         "time":"1504670455551"
       },
       {
         "title":"山东百只羊吃葱被毒死 官方称涉案封存大葱已无害化处理",
-        "image":"/static/image/img5.jpg",
+        "image":"/image/img5.jpg",
         "rateCount":113,
         "time":"1504691420435"
       },
       {
         "title":"二线城市送房、送钱、送户口,你会逃离北上广吗?",
-        "image":"/static/image/img15.jpg",
+        "image":"/image/img15.jpg",
         "rateCount":7,
         "time":"1504692018005"
       },
       {
         "title":"新生代韩国女团里的'门面担当',你最喜欢谁?",
-        "image":"/static/image/img16.jpg",
+        "image":"/image/img16.jpg",
         "rateCount":77,
         "time":"1504606010455"
       },
       {
         "title":"女大学生被骗近两万元 不停给骗子打电话竟要回了大部分",
-        "image":"/static/image/img17.jpg",
+        "image":"/image/img17.jpg",
         "rateCount":85,
         "time":"1504653270455"
       },
       {
         "title":"助威国足!中国足协高层新老成员集体现身武汉",
-        "image":"/static/image/img18.jpg",
+        "image":"/image/img18.jpg",
         "rateCount":79,
         "time":"1504643200001"
       },
       {
         "title":"韩国造船竞标败给中国 引发其制造业衰退恐慌",
-        "image":"/static/image/img20.jpg",
+        "image":"/image/img20.jpg",
         "rateCount":56,
         "time":"1504645610222"
       }
     ]
   },
   "focusBelarus": {
-    "rollImg":[
-      {
-        "img":"/static/image/img1.jpg",
-        "info":"全球军力排名出炉,倒数第一是中国的邻居"
-      },
-      {
-        "img":"/static/image/img19.jpg",
-        "info":"楼市现:\"首付10%、开发商垫资\"卖房"
-      },
-      {
-        "img":"/static/image/img3.jpg",
-        "info":"绝了!iPhone8要用手势取代Home键"
-      }
-    ],
     "news":[
       {
         "title":"国防部否认中国向印方提供贴息贷款:纯属捏造",
-        "image":"/static/image/img4.jpg",
+        "image":"/image/img4.jpg",
         "rateCount":222,
         "time":"1504670455551"
       },
       {
         "title":"山东百只羊吃葱被毒死 官方称涉案封存大葱已无害化处理",
-        "image":"/static/image/img5.jpg",
+        "image":"/image/img5.jpg",
         "rateCount":113,
         "time":"1504691420435"
       },
       {
         "title":"百度外卖员工安置公布:期权作废,核心员工有奖励",
-        "image":"/static/image/img2.jpg",
+        "image":"/image/img2.jpg",
         "rateCount":201,
         "time":"1504631800355"
       },
       {
         "title":"国内知名平台ICOINFO暂停ICO业务",
-        "image":"/static/image/img7.jpg",
+        "image":"/image/img7.jpg",
         "rateCount":32,
         "time":"1504655820455"
       },
       {
         "title":"制作人怒揭MBC黑幕<<无挑>>或将停播",
-        "image":"/static/image/img8.jpg",
+        "image":"/image/img8.jpg",
         "rateCount":11,
         "time":"1504604719455"
       },
       {
         "title":"许多房子空置无人居住,现笑着买房,未来恐怕要哭着卖房了",
-        "image":"/static/image/img9.jpg",
+        "image":"/image/img9.jpg",
         "rateCount":212,
         "time":"1504689820455"
       },
       {
         "title":"墨西哥洞穴内发现人类遗骸 距今万年",
-        "image":"/static/image/img10.jpg",
+        "image":"/image/img10.jpg",
         "rateCount":125,
         "time":"1504667812455"
       },
       {
         "title":"韩国现代汽车在华停产 顾家下跌2%",
-        "image":"/static/image/img11.jpg",
+        "image":"/image/img11.jpg",
         "rateCount":1248,
         "time":"1504666815405"
       },
       {
         "title":"三星电子70亿美元再投西安高新区",
-        "image":"/static/image/img12.jpg",
+        "image":"/image/img12.jpg",
         "rateCount":167,
         "time":"1504669980945"
       },
       {
         "title":"北京公交看不下去了!开发APP:iPone终于能刷公交卡",
-        "image":"/static/image/img13.jpg",
+        "image":"/image/img13.jpg",
         "rateCount":65,
         "time":"1504602290055"
       },
       {
         "title":"京东阿里顺丰暗搞大动作 无人送货时代即将来临",
-        "image":"/static/image/img14.jpg",
+        "image":"/image/img14.jpg",
         "rateCount":53,
         "time":"1504699912345"
       },
       {
         "title":"二线城市送房、送钱、送户口,你会逃离北上广吗?",
-        "image":"/static/image/img15.jpg",
+        "image":"/image/img15.jpg",
         "rateCount":7,
         "time":"1504692018005"
       },
       {
         "title":"新生代韩国女团里的'门面担当',你最喜欢谁?",
-        "image":"/static/image/img16.jpg",
+        "image":"/image/img16.jpg",
         "rateCount":77,
         "time":"1504606010455"
       },
       {
         "title":"女大学生被骗近两万元 不停给骗子打电话竟要回了大部分",
-        "image":"/static/image/img17.jpg",
+        "image":"/image/img17.jpg",
         "rateCount":85,
         "time":"1504653270455"
       },
       {
         "title":"助威国足!中国足协高层新老成员集体现身武汉",
-        "image":"/static/image/img18.jpg",
+        "image":"/image/img18.jpg",
         "rateCount":79,
         "time":"1504643200001"
       },
       {
         "title":"韩国造船竞标败给中国 引发其制造业衰退恐慌",
-        "image":"/static/image/img20.jpg",
+        "image":"/image/img20.jpg",
         "rateCount":56,
         "time":"1504645610222"
       }
@@ -841,13 +653,13 @@
     "美国政府禁用卡巴斯基"
   ],
   "startImage":[
-    "/static/image/start1.jpg",
-    "/static/image/start2.jpg",
-    "/static/image/start3.jpg",
-    "/static/image/start4.jpg"
+    "/image/start1.jpg",
+    "/image/start2.jpg",
+    "/image/start3.jpg",
+    "/image/start4.jpg"
   ],
   "text":["资讯全方位,阳光零距离","逐梦深蓝","超越从足下起航","主流视野,时代情怀"],
   "name":"SeulGi",
   "sign":"Never Give Up",
-  "picture":"/static/image/user.jpg"
+  "picture":"/image/user.jpg"
 }

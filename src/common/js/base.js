@@ -66,3 +66,11 @@ const URL = "http://localhost:3000/api/";
 export const url = {
     news: URL+'getNews/'
 }
+export const searchCon = {
+    profCon: '请输入专家的姓名或者相关内容',
+    projCon: '请输入项目的名称或者相关内容'
+}
+export const titleCon = {
+    profCon: '专家列表',
+    projCon: '项目列表'
+}

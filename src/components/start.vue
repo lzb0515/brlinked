@@ -5,8 +5,8 @@
         <div class="page">
 	        <start-image :width="100" :height="25" :url="urls[0]" :direction="left" v-if="urls.length" :top="0" :text="text[0]"></start-image>
 	        <start-image :width="100" :height="25" :url="urls[1]" v-if="urls.length" :top="25" :text="text[1]"></start-image>
-          <start-image :width="100" :height="25" :url="urls[2]" :direction="left" v-if="urls.length" :top="50" :text="text[2]"></start-image>
-          <start-image :width="100" :height="25" :url="urls[3]" v-if="urls.length" :top="75" :text="text[3]" @show="start"></start-image>
+            <start-image :width="100" :height="25" :url="urls[2]" :direction="left" v-if="urls.length" :top="50" :text="text[2]"></start-image>
+            <start-image :width="100" :height="25" :url="urls[3]" v-if="urls.length" :top="75" :text="text[3]" @show="start"></start-image>
         </div>
       </div>
     </div>
@@ -14,8 +14,8 @@
 </template>
 
 <script type="text/javascript">
-  import startImage from "./startImage"
-  import axios from "axios"
+  import startImage from "./base/startImage"
+  import {url} from '@/common/js/base'
 
 	export default{
 		name:"start",
@@ -27,10 +27,12 @@
 			}
 		},
 		created(){
-			axios.get("/static/data/start.json").then((res)=>{
-        this.urls=res.data.startImage;
-        this.text=res.data.text;
+			this.$http.get(url.news+"startImage").then((res)=>{
+                this.urls=res.data.data;
 			})
+            this.$http.get(url.news+"text").then((res)=>{
+                this.text=res.data.data.data;
+            })
 		},
     methods:{
       start(){

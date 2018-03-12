@@ -4,10 +4,12 @@ Vue.use(VueRouter)
 
 import news from "../components/news"
 import user from "../components/user"
-import search from "../components/search"
-import select from "../components/selectChannel"
+import projects from "../components/projects"
+import professor from "../components/selectChannel"
 import start from "../components/start"
 import login from "../components/login"
+import item from "../components/base/item"
+import chat from "../components/base/chat"
 
 import focusNews from "../components/channels/focusNews"
 import vedio from "../components/channels/vedio"
@@ -30,10 +32,32 @@ const routes=[
   {path:"/",component:news,redirect:"/start"},
   {path:"/start",component:start},
   {path:"/login",component:login},
-  {path:"/search",component:search},
+  {
+    path:"/projects",
+    component:projects,
+    children: [
+    {
+        path: 'detail/:item',
+        component: item
+    }
+]
+  },
   {path:"/user",component:user},
   {path:"/news",component:news,children:newsChildrenRoutes},
-  {path:"/select",component:select}
+  {
+    path:"/professor",
+    component:professor,
+    children: [
+      {
+        path: 'detail/:item',
+        component: item
+      },
+      {
+         path: 'chat/:item',
+         component: chat
+      }
+    ]
+  }
 ]
 
 export default new VueRouter({

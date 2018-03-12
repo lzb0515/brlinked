@@ -6,7 +6,6 @@
               <li class="items" v-for="(item,index) in channels" :key="index">
                 <router-link :to="{path:item.path,params:{id:item.path}}"  class="channelItem">{{item.page}}</router-link>
               </li>
-
           </ul>
         </div>
 	    <div class="border_1px"></div>
@@ -47,10 +46,8 @@
           for(let i = 0; i < this.channels.length; i++) {
               widths += oUl.getElementsByTagName("li")[i].clientWidth;
           }
-
           oUl.style.width = widths+"px";
-          console.log(oUl.style.width);
-        this.scroll = new Bscroll(this.$refs.channel,{
+          this.scroll = new Bscroll(this.$refs.channel,{
           scrollX:true,
           bounce:false,
           click:true,

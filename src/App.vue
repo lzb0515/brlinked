@@ -1,7 +1,11 @@
 <template>
   <div id="app">
     <Header class="top"></Header>
-    <router-view class="view"></router-view>
+    <transition name="tranApp">
+      <keep-alive>
+        <router-view class="view"></router-view>
+      </keep-alive>
+    </transition>
     <Footer class="bottom"></Footer>
   </div>
 </template>
@@ -40,5 +44,12 @@
       order: 3;
       flex: 0 0 2.3rem;
     }
+  }
+
+  .tranApp-enter-active, .tranApp-leave-active {
+    transform: translate(-100%, 0, 0);
+  }
+  .tranApp-enter, .tranApp-leave-to {
+    transform: translate(0, 0, 0);
   }
 </style>

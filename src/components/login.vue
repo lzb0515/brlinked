@@ -1,12 +1,13 @@
 <template>
 	<div class="loginpage">
+		<div @click="goBack" class="iconfont icon-goback"></div>
 	  <h1 class="title">百域联达</h1>
 	  <div class="loginBox">
 		  <input class="userName" type="text" placeholder="ID: 手机号/邮箱" v-model="userName" @blur="checkName">
 		  <div class="border_1px"></div>
 		  <div class="infoBox">
 		  	<input class="password word1" type="text"  maxlength="20" placeholder="密码: 6~20位英文+数字" v-model="password" @input="check">
-			  <span :class="{'icon-eye-blocked':!visible,'icon-eye':visible}" class="icon" @click.prevent="togglePassWord"></span>
+			  <span class="iconfont" :class="{'icon-closeeye':!visible,'icon-eye':visible}" @click.prevent="togglePassWord"></span>
 		  </div>
 		  <div class="border_1px"></div>
 	  </div>
@@ -40,6 +41,9 @@
 			}
 		},
 		methods:{
+            goBack() {
+                this.$router.back()
+            },
 			checkName(){
 				const reEmail=/^\w+@[a-z0-9]+\.[a-z]+$/;
 				const rePhone=/^1(3[0-9]|4[57]|5[0-35-9]|8[0-9]|7[780])\d{8}$/;
@@ -157,12 +161,15 @@
         	border:none;
         	outline: none;
         }
-        .icon{
+        .iconfont{
         	flex: 0 2.25rem;
         	line-height: 2.25rem;
-        	font-size: 1.0rem;
+        	font-size: 0.73rem;
         	padding-left: 0.5rem;
         	box-sizing:border-box;
+			&.icon-closeeye{
+				font-size: 1.2rem;
+			}
         }
 			}
 		}

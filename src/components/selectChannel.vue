@@ -1,72 +1,83 @@
 <template>
   <div class="selectChannel">
     <div class="head">
-      <h2 class="headTxt">专家介绍</h2>
+      <h2 class="headTxt">{{profTi}}</h2>
       <div class="border_1px"></div>
     </div>
+    <search :path="professors" :msg="msg"></search>
     <div class="wrapper" ref="wrapper">
-      <div class="content">
-        <div class="selected">
-          <h3 class="title">
-            <span class="selectedChannel">已选专家</span>
-          </h3>
-          <options :close="true" :items="defaultChannels"></options>
-        </div>
-        <div class="unselected">
-          <div class="channelOption">
-            <span class="optionBtn leftBtn" :class="{active:tab}" @click="tab=true">推荐专家</span>
-            <span class="optionBtn rightBtn" :class="{active:!tab}"  @click="tab=false">地方专家</span>
-            <div class="border_1px"></div>
-          </div>
-          <div class="recommendation" v-if="tab">
-            <options :items="recommendations"></options>
-          </div>
-          <div class="local" v-else>
-            <options :items="placeNews"></options>
-          </div>
-        </div>
-      </div>
+      <ul class="selectList">
+          <li class="border_1px diff" v-for="(professor, index) in professors" :key="index">
+            <router-link class="selectItem" :to="{path:'professor/detail/'+index, params:professor}">
+              <span class="img">
+                <img :src="professor.img" width="64" height="64"/>
+              </span>
+              <div class="text">
+                <p class="title">
+                  <span class="name">{{professor.name}}</span>
+                  <router-link :to="{path:'professor/chat/'+index, params:professor}">
+                    <span class="iconfont icon-chats"></span>
+                  </router-link>
+                </p>
+                <p class="intro">{{professor.intro}}</p>
+              </div>
+            </router-link>
+          </li>
+      </ul>
     </div>
+    <keep-alive>
+      <router-view></router-view>
+    </keep-alive>
   </div>
 </template>
 
 <script>
-  import options from "./base/option"
   import BScroll from "better-scroll"
+  import {url, searchCon, titleCon} from "@/common/js/base"
+  import search from "./base/search"
+  const ERR_OK = 0
 
   export default {
     name:"selectChannel",
-    data(){
+    components: {
+       search
+    },
+    data() {
       return {
-        tab:true
+        professors: [],
+        msg: searchCon.profCon,
+        profTi: titleCon.profCon,
+        cliHig: 0
       }
     },
-    computed:{
-      defaultChannels(){
-        return this.$store.state.channels.default
-      },
-      recommendations(){
-        return this.$store.state.channels.recommendations;
-      },
-      placeNews(){
-        return this.$store.state.channels.placeNews;
-      }
+    created() {
+      this.getNew()
     },
-    components:{
-      options
-    },
-    mounted(){
+    mounted() {
       this.$nextTick(() => {
-        this.scroll = new BScroll(this.$refs.wrapper,{
-          click:true
-        })
+          this._isScroll()
+          if(window.innerHeight){
+              this.cliHig = window.innerHeight;
+          }else {
+              this.cliHig = document.documentElement.clientHeight;
+          }
+          this.$refs.wrapper.style.height = this.cliHig - 8.9 + 'rem';
       })
     },
-    watch:{
-      defaultChannels(){
-        this.$nextTick(() => {
-          this.scroll.refresh();
-        })
+    methods: {
+      _isScroll() {
+          this.scroll = new BScroll(this.$refs.wrapper, {
+              click: true
+          })
+      },
+      getNew() {
+          this.$http.get(url.news + "professors").then((res)=>{
+              if(res.data.errno == ERR_OK){
+                  console.log(res.data)
+                  this.professors = res.data.data;
+              }
+
+          })
       }
     }
   }
@@ -77,6 +88,8 @@
     position: relative;
     width: 100%;
     background: #fff;
+    display: flex;
+    flex-direction: column;
     .head{
       width: 100%;
       height: 2.25rem;
@@ -87,6 +100,7 @@
       box-sizing:border-box;
       background:#fff;
       color: #1b1d1f;
+      flex: 0 0 2.25rem;
       .headTxt{
         font-size: 0.9rem;
       }
@@ -97,55 +111,52 @@
       }
     }
     .wrapper{
-      position:absolute;
-      left: 0;
-      top: 2.25rem;
-      bottom: 2.5rem;
-      width: 100%;
-      box-sizing:border-box;
       overflow: hidden;
-      .content{
-        .selected{
-          .title{
-            display: flex;
-            font-size: 0.7rem;
-            padding:0.5rem 1.0rem 0 1.0rem;
-            .selectedChannel{
-              flex:1;
-              text-align: left;
-              color: #1b1d1f;
-            }
+      .selectList{
+        padding: 0 10px;
+        li{
+          width: 100%;
+          display: block;
+          &.diff {
+            border: 0;
+            border-bottom: 1px solid rgba(7, 17, 27, 0.1);
           }
-        }
-        .unselected{
-          .channelOption{
-            position:relative;
-            width: 100%;
-            height: 2.25rem;
-            padding:0 2.5rem;
-            overflow: hidden;
-            box-sizing:border-box;
-            .optionBtn{
-              height: 100%;
-              padding:0 1.0rem;
-              line-height: 2.25rem;
-              font-size: 0.9rem;
-              color: #1b1d1f;
-              &.active{
-                border-bottom:2px solid #2487ea;
-                box-sizing:border-box;
+          .selectItem{
+            display: flex;
+            flex-direction: row;
+            padding: 15px 0;
+            .img {
+              flex: 0 0 76px;
+              img {
+                border:0;
               }
             }
-            .leftBtn{
-              float: left;
-            }
-            .rightBtn{
-              float: right;
-            }
-            .border_1px{
-              position:absolute;
-              left: 0;
-              bottom:0;
+            .text {
+              flex: 1 1 auto;
+              p {
+                width: 100%;
+                &.title {
+                  display: flex;
+                  flex-direction: row;
+                  font-size: 0.8rem;
+                  color: #333;
+                  .name {
+                    flex: 1 1 auto;
+                  }
+                  .iconfont {
+                    flex: 0 0 1rem;
+                    width: 1rem;
+                    height: 1rem;
+                    color: #55d532;
+                  }
+                }
+                &.intro {
+                  padding-top: 7px;
+                  font-size: 0.6rem;
+                  color: #999;
+                  line-height: 0.8rem;
+                }
+              }
             }
           }
         }
